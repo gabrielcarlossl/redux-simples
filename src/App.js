@@ -1,6 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+
 import Card from './components/Card';
+import Intervalo from './components/Intervalo';
+import Media from './components/Media';
+import Soma from './components/Soma';
+import Sorteio from './components/Sorteio';
 
 function App() {
   return (
@@ -8,13 +13,14 @@ function App() {
       <h1>Exercício React-Redux (Simples)</h1>
 
       <div className='linha'>
-        <Card title='Card 1' Red>X</Card>
-        <Card title='Card 2' Blue>Y</Card>
+        <Intervalo></Intervalo>
+        
       </div>
       
       <div className='linha'>
-        <Card title='Card 3' Purple>X</Card>
-        <Card title='Card 4' Green>Y</Card>
+        <Media></Media>
+        <Soma></Soma>
+        <Sorteio></Sorteio>
       </div>
       
       
